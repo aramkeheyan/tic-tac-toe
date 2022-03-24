@@ -107,8 +107,7 @@ function getCellIndex(target) {
 }
 
 function showWinMessage() {
-    debugger
-    alert`${currentPlayer} won!`
+    alert(`${currentPlayer} won!`)
 }
 
 function resetGame() {
